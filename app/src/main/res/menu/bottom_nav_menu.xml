@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="首頁"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation_function"
+        android:enabled="true"
+        android:icon="@drawable/dashboard"
+        android:title="功能"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation_head"
+        android:enabled="true"
+        android:icon="@drawable/home_head"
+        android:title="功能"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_notify"
+        android:enabled="true"
+        android:icon="@drawable/notify"
+        android:title="通知"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation_sign"
+        android:enabled="true"
+        android:icon="@drawable/setting"
+        android:title="簽核"
+        app:showAsAction="always"/>
+
+
+</menu>

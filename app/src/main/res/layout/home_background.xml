@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/text_home"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:background="@color/purple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/home_head"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WILLIAM"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            app:layout_constraintLeft_toRightOf="@id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/dept_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技術部"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            app:layout_constraintLeft_toRightOf="@id/imageView3"
+            app:layout_constraintTop_toTopOf="@id/name"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工程師"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@id/dept_name"
+            app:layout_constraintTop_toTopOf="@id/name"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
